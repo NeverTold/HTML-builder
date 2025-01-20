@@ -5,9 +5,7 @@ const readline = require('readline');
 const filePath = path.join(__dirname, 'output.txt');
 const writeStream = fs.createWriteStream(filePath, { flags: 'a' });
 
-
 console.log('Lets test your writing skills! Please enter your text. Type "exit" to quit or press ctrl + c.');
-
 
 const readlineInt = readline.createInterface({
   input: process.stdin,
